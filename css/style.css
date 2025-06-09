@@ -1,14 +1,117 @@
 body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #fff;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  color: #2e2f42;
+  text-align: center;
 }
 
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
 ul,
 ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* -----HEADER----- */
+
+/* logo */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.logo-span {
+  color: #4d5ae5;
+}
+
+/* NAVIGATION */
+.nav-list .list-item {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.nav-list .list-item:hover,
+.nav-list .list-item:focus {
+  color: #404bbf;
+  cursor: pointer;
+}
+
+/* CONTACTS */
+.address-list .list-item {
+  color: #434455;
+  font-size: 16px;
+}
+
+.address-list .list-item:hover,
+.address-list .list-item:focus {
+  color: #404bbf;
+}
+
+/* -----MAIN----- */
+
+/* HERO */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-btn {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+/* BENEFITS */
+
+/* OUR TEAM */
+.our-team-list .list-item {
+  text-align: center;
+}
+/* -----FOOTER----- */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.white {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
